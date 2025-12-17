@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>TrixCode Updates</title>
+        <link>https://trixcode.dev</link>
+        <description>Most recent updates to TrixCode</description>
+        <language>en</language>
+
+        <!-- Release entries will be added here -->
+
+    </channel>
+</rss>
