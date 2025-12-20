@@ -8,7 +8,7 @@
 
         <item>
             <title>Version 1.0.0</title>
-            <pubDate>Sat, 20 Dec 2025 14:07:44 +0200</pubDate>
+            <pubDate>Sat, 20 Dec 2025 16:30:57 +0200</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -20,12 +20,13 @@
     <li>Context-aware coding assistance</li>
     <li>Seamless Xcode integration</li>
     <li>Multiple AI model support</li>
+    <li>Feature flag system for announcements</li>
 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.0/TrixCode-1.0.0.zip"
-                sparkle:edSignature="0BhbQ6rI7w0kpcy/5eGZHVBi2wCt3OyvE7h0nL4o7DYDRBjnstDLEXE76arKGwW8hpD8zBtMl29scTVnMIAeDQ=="
-                length="36418724"
+                sparkle:edSignature="7tS3R38ttk7e7dlnOYkcT/xB8xew/9iE5ABH2oAOgEzdvwEz7wlT0vDgkJ8ntgWDSGZJENg4NNlMSEp2FAyzBw=="
+                length="36453297"
                 type="application/octet-stream"/>
         </item>
 
