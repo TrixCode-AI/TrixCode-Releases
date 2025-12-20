@@ -2,11 +2,32 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>TrixCode Updates</title>
-        <link>https://trixcode.dev</link>
+        <link>https://raw.githubusercontent.com/TrixCode-AI/TrixCode-Releases/main/appcast.xml</link>
         <description>Most recent updates to TrixCode</description>
         <language>en</language>
 
-        <!-- Release entries will be added here -->
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Sat, 20 Dec 2025 14:07:44 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>TrixCode 1.0.0</h2>
+<p>Initial release - AI-powered coding assistant for Xcode.</p>
+<ul>
+    <li>Intelligent code completion and suggestions</li>
+    <li>Context-aware coding assistance</li>
+    <li>Seamless Xcode integration</li>
+    <li>Multiple AI model support</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.0/TrixCode-1.0.0.zip"
+                sparkle:edSignature="MJDjAgT4Sm5P5jmhjuHGjC5RIKHU2SwEkqF5Jt+Z3uEzIb571hOTSwZpTXrztN2hq3KPa89PLkLHe2v4xl1WAw=="
+                length="36418434"
+                type="application/octet-stream"/>
+        </item>
 
     </channel>
 </rss>
