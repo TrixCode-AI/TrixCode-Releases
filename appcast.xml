@@ -7,6 +7,24 @@
         <language>en</language>
         <item>
     <title>Version 1.0.0</title>
+    <pubDate>Sun, 01 Mar 2026 09:31:06 +0200</pubDate>
+    <sparkle:version>1.0.0</sparkle:version>
+    <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.0</h2>
+        <ul>
+            <li>Update release notes here</li>
+        </ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.0/TrixCode-1.0.0.zip"
+        sparkle:edSignature="0x79e2Y07jhdN3F2bdo2kr6AFuTqq1ZvjRmIXZwkDO4O1d4WpRJGk2rwUlc6AruD6664rwHyxG5o7CQEp2ieAw=="
+        length="110221363"
+        type="application/octet-stream"/>
+</item>
+                <item>
+    <title>Version 1.0.0</title>
     <pubDate>Sun, 01 Mar 2026 09:01:54 +0200</pubDate>
     <sparkle:version>1.0.0</sparkle:version>
     <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
