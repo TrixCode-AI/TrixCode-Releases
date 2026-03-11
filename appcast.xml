@@ -6,6 +6,56 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.2</title>
+    <pubDate>Wed, 11 Mar 2026 13:04:27 +0200</pubDate>
+    <sparkle:version>1.0.2</sparkle:version>
+    <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.2</h2>
+
+<h3>New</h3>
+<ul>
+  <li><strong>@mention file search:</strong> Type <code>@</code> in the message input to quickly search and reference files from your project — no more copy-pasting paths.</li>
+  <li><strong>Context window breakdown:</strong> A new popover shows you exactly how your context window is being used, with a clear token-by-token breakdown so you always know what's being sent to the model.</li>
+  <li><strong>File diffs after responses:</strong> When the assistant modifies files, a diff is displayed inline after its response so you can review changes at a glance.</li>
+  <li><strong>Slash command palette:</strong> Type <code>/</code> to bring up a command palette with MCP tools and quick actions — a faster way to drive the assistant without leaving the chat.</li>
+  <li><strong>Global hotkey support:</strong> Set a system-wide keyboard shortcut to bring TrixCode into focus from anywhere, even when Xcode is front and centre. Configure it in the new Hotkeys settings tab.</li>
+  <li><strong>OAuth device authorization:</strong> Providers that support OAuth can now be authenticated with a simple device flow — just follow the link, approve access, and you're connected.</li>
+  <li><strong>Todo panel:</strong> The assistant can now maintain a live todo list during longer coding sessions, keeping track of outstanding tasks as it works through your requests.</li>
+  <li><strong>Auto-updates via Sparkle:</strong> TrixCode can now update itself. Use <em>Check for Updates</em> in the menu bar to grab the latest version without visiting GitHub.</li>
+  <li><strong>Rebuilt onboarding:</strong> A refreshed, eight-step onboarding flow walks you through setup more clearly, including accessibility permissions and provider configuration.</li>
+</ul>
+
+<h3>Improved</h3>
+<ul>
+  <li><strong>XcodeBuildMCP is now zero-setup:</strong> The XcodeBuildMCP tool ships as a self-contained binary inside TrixCode — nothing to install or configure separately.</li>
+  <li><strong>Streaming text is back to normal:</strong> A bug was preventing streamed responses from rendering word-by-word as the model replied. This is now fixed and responses flow in smoothly again.</li>
+  <li><strong>Providers load without an open project:</strong> You no longer need an active project directory open before your AI providers become available.</li>
+  <li><strong>Selected code context:</strong> Highlighted code in Xcode is picked up automatically and attached as context when you send a message — no manual copy-paste required.</li>
+  <li><strong>Model, agent, and variant selectors:</strong> Easily switch between models and agent configurations directly from the chat interface.</li>
+  <li><strong>Structured server logs:</strong> Server output is now captured in a structured log store, making it much easier to diagnose connection issues when something goes wrong.</li>
+  <li><strong>Window management improvements:</strong> TrixCode now enforces a sensible minimum window height and handles multi-display layouts more reliably. The onboarding card no longer overflows on smaller screens.</li>
+  <li><strong>Xcode window tracking fixed:</strong> TrixCode was occasionally latching onto dialogs and popups instead of the Xcode editor window. It now correctly follows your editor.</li>
+  <li><strong>Faster reconnection on project switch:</strong> Switching between Xcode projects reconnects to the backend more reliably and quickly.</li>
+  <li><strong>Settings screen:</strong> A dedicated Settings panel brings together provider authentication, model selection, OAuth flows, and hotkey configuration in one place.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>Fixed a crash that could occur during server startup when first registering an MCP tool.</li>
+  <li>Fixed an issue where the app window would not restore correctly across displays.</li>
+  <li>Fixed a race condition with project pinning that could leave the app in an inconsistent state on launch.</li>
+  <li>Fixed SSE connection drops not recovering properly when switching projects.</li>
+  <li>Fixed provider type decoding errors that could silently prevent models from loading.
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.2/TrixCode-1.0.2.zip"
+        sparkle:edSignature="sIuMOMFfLMnO5kpT40Cw/uwLCW0VZN7MnS+aa0IiT+2YcEaBZhMR6S9PZeNBZ1uFHJgHi9DPYQCXGgyHnN2LAA=="
+        length="113882672"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.1</title>
     <pubDate>Thu, 05 Mar 2026 09:42:46 +0200</pubDate>
     <sparkle:version>1.0.1</sparkle:version>
