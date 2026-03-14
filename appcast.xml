@@ -6,6 +6,32 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.3</title>
+    <pubDate>Sat, 14 Mar 2026 17:12:28 +0200</pubDate>
+    <sparkle:version>1.0.3</sparkle:version>
+    <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.3</h2>
+
+<h3>New</h3>
+<ul>
+  <li>Added an About window with a link to support TrixCode on Ko-fi — tips are always appreciated and help keep the project going!</li>
+  <li>You can now paste images from your clipboard or drag and drop them directly into the chat input, making it easier to share screenshots of errors, UI issues, or code snippets.</li>
+</ul>
+
+<h3>Improved</h3>
+<ul>
+  <li>TrixCode now remembers which AI model you had selected for each session. Switching providers also automatically validates your model choice, so you'll never accidentally be talking to the wrong model.</li>
+</ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.3/TrixCode-1.0.3.zip"
+        sparkle:edSignature="1L6rQ1hPUKN4dGmtB0yT7DCTebAKqca/9A1vxjhyf4ilxXjf6KJkOVs1M2oZtLZI2QCHRsY0OcdTMegLBJ2YBQ=="
+        length="101470130"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.2</title>
     <pubDate>Wed, 11 Mar 2026 13:04:27 +0200</pubDate>
     <sparkle:version>1.0.2</sparkle:version>
