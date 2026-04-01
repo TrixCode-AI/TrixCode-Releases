@@ -6,6 +6,33 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.4</title>
+    <pubDate>Wed, 01 Apr 2026 16:15:38 +0300</pubDate>
+    <sparkle:version>1.0.4</sparkle:version>
+    <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.4</h2>
+<h3>New</h3>
+<ul>
+  <li>You can now add and remove MCP servers directly within TrixCode, with full OAuth support for servers that require authentication.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+  <li>Error messages are now clearer and more descriptive, so you spend less time guessing what went wrong.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+  <li>Permission prompts and questions from AI sub-agents are now handled in order, preventing chats from getting stuck waiting for a response.</li>
+</ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.4/TrixCode-1.0.4.zip"
+        sparkle:edSignature=""
+        length="105134236"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.3</title>
     <pubDate>Sat, 14 Mar 2026 17:12:28 +0200</pubDate>
     <sparkle:version>1.0.3</sparkle:version>
