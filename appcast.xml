@@ -6,6 +6,30 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.6</title>
+    <pubDate>Thu, 02 Apr 2026 18:32:53 +0300</pubDate>
+    <sparkle:version>1.0.6</sparkle:version>
+    <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.6</h2>
+<h3>New</h3>
+<ul>
+  <li>Added a <strong>Copy Response</strong> button so you can grab AI-generated code or answers with a single click.</li>
+  <li>You can now <strong>export your conversation</strong> to save or share a chat session outside of TrixCode.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+  <li><strong>Text selection</strong> in the chat window is now smoother and more reliable — highlighting code snippets and responses works the way you'd expect.</li>
+</ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.6/TrixCode-1.0.6.zip"
+        sparkle:edSignature=""
+        length="106555091"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.5</title>
     <pubDate>Wed, 01 Apr 2026 18:57:54 +0300</pubDate>
     <sparkle:version>1.0.5</sparkle:version>
