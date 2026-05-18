@@ -6,6 +6,24 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.7</title>
+    <pubDate>Mon, 18 May 2026 07:45:49 +0300</pubDate>
+    <sparkle:version>1.0.7</sparkle:version>
+    <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.7</h2>
+        <ul>
+            <li>Update release notes here</li>
+        </ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.7/TrixCode-1.0.7.zip"
+        sparkle:edSignature="zP8phwH3zh+1HCTievrX/wOQybABertw76O9vUtUB+Cyu7uY4QTNsLF3x69J35DfTU66pv4RZwvYM92Ib9IgDw=="
+        length="98479920"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.6</title>
     <pubDate>Thu, 02 Apr 2026 19:36:03 +0300</pubDate>
     <sparkle:version>1.0.6</sparkle:version>
