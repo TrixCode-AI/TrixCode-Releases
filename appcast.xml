@@ -6,6 +6,26 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.9</title>
+    <pubDate>Mon, 25 May 2026 20:52:35 +0300</pubDate>
+    <sparkle:version>1.0.9</sparkle:version>
+    <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.9</h2>
+        <h3>Fixed</h3>
+        <ul>
+            <li>Fixed a freeze when scrolling through long messages — markdown rendering is now cached and no longer recomputed on every scroll frame</li>
+            <li>Fixed a freeze when dragging the TrixCode window between monitors — Xcode window repositioning now runs in the background</li>
+        </ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.9/TrixCode-1.0.9.zip"
+        sparkle:edSignature="UdIo83g1iaPHoPcDeoLmGASugizoqLNtnzCzVgJzYoIY2qYWVQj87IZakiPBfuFklJcIWLFrduLaMV7K7sHyBA=="
+        length="106835289"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.8</title>
     <pubDate>Mon, 25 May 2026 01:22:20 +0300</pubDate>
     <sparkle:version>1.0.8</sparkle:version>
