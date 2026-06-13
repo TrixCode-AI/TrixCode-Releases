@@ -6,6 +6,32 @@
         <description>TrixCode release feed</description>
         <language>en</language>
         <item>
+    <title>Version 1.0.10</title>
+    <pubDate>Sat, 13 Jun 2026 16:30:47 +0300</pubDate>
+    <sparkle:version>1.0.10</sparkle:version>
+    <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <description><![CDATA[
+        <h2>What's New in 1.0.10</h2>
+        <h3>Fixed</h3>
+        <ul>
+            <li>Fixed the freezes and beachballs that could happen during long, multi-step AI tasks. TrixCode now stays responsive while the assistant works and while Xcode is busy in the background.</li>
+            <li>Fixed a hang on first launch (and right after updating) while TrixCode finished setting up its bundled build tools.</li>
+            <li>Fixed an issue that could stop automatic updates from installing.</li>
+        </ul>
+        <h3>Improved</h3>
+        <ul>
+            <li>Smoother streaming and scrolling in long conversations.</li>
+            <li>The task list panel now expands and collapses cleanly, without ever pushing the message box off the bottom of the window.</li>
+        </ul>
+    ]]></description>
+    <enclosure
+        url="https://github.com/TrixCode-AI/TrixCode-Releases/releases/download/v1.0.10/TrixCode-1.0.10.zip"
+        sparkle:edSignature="LQ7qJtWvVc62E9eVHMaR4As651Ofz2VwUda8ZuTnIIkF1v6Q93b6i96d7AzV4G5JwUkZOpwfo66Wr+UAai8fBw=="
+        length="102627547"
+        type="application/octet-stream"/>
+</item>
+                <item>
     <title>Version 1.0.9</title>
     <pubDate>Mon, 25 May 2026 20:52:35 +0300</pubDate>
     <sparkle:version>1.0.9</sparkle:version>
